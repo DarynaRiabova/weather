@@ -1,12 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
+import Weather from "./Weather";
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <h1>Hi</h1>;
+  return (
+    <div className="App">
+      <h1>Weather App</h1>
+      <Weather />
+      <a href="https://github.com/DarynaRiabova"> My GitHub</a>
+    </div>
+  );
 }
 
 export default App;

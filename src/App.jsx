@@ -1,12 +1,12 @@
 import "./App.css";
+import Head from "./Head";
+import Body from "./Body";
 
-import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Weather />
-      <a href="https://github.com/DarynaRiabova"> My GitHub</a>
+      <Head />
+      <Body />
     </div>
   );
 }
